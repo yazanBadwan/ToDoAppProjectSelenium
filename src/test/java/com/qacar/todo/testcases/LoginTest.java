@@ -28,7 +28,7 @@ public void shouldBeAbleToLoginWithEmailAndPassword(){
                 .load()
                 .login(ConfigUtils.getInstance().getEmail(), ConfigUtils.getInstance().getPassword())
                 .isWelcomeMessageDisplayed();
-
+//a
 
     Assert.assertTrue(isWelcomeDisplayed);
 
